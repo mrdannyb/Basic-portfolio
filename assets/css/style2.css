@@ -1,0 +1,36 @@
+body {
+	background: url(../images/hip-square.png);
+	position: relative;
+	box-sizing: border-box;
+}
+
+.main-box {
+	float: left;
+	width: 650px;
+	border-style: solid;
+	border-color: grey;
+	color: grey;
+	background: white;
+	padding: 25px;
+	margin: 20px;
+}
+
+.title-left {
+	color: #4aaaa5;
+}
+
+.side-box {
+	float: left;
+	width: 270px;
+	border-style: solid;
+	border-color: grey;
+	color: grey;
+	background: white;
+	padding: 20px;
+	margin: 20px;
+}
+
+.floating-box {
+	display: flex;
+	justify-content: space-around;
+}

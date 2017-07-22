@@ -1,83 +1,145 @@
 html, body {
 	height: 100%;
 }
+
 body {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	width: 960px;
+	background: url(../images/hip-square.png);
+	position: relative;
+	box-sizing: border-box;	
 }
-.content {
-	flex: 1;
-	padding: 20px;
-}
-.footer {
-	flex-shrink: 0;
-	padding: 20px;
-}
-.tops {
-	display: inline;
-	height: 150px;
-	width: 100%;
-}
-.namebox {
-	display: inline;
-	color: white;
-	background-color: #4aaaa5;
-	float: inline;
-	height: 95px;
-	width: 200px;	
-}
-.rightList {
-	float: right;
-	list-style-type: none;
+
+header {
 	padding: 0;
 	margin: 0;
-}
-header {
+	color: #333;
+	height: 90px;
+	border-bottom: 3px solid grey;
 	background-color: #ffffff;
-	border-bottom-style: medium #cccccc;
-	border-color: #cccccc;
 	font-family:'Georgia', Times, "Times New Roman", serif;
 }
-li {
-	display: inline;
-	color: #777777;
+
+h1 {
+	font-size: 32px;
 }
+
+h2 { 
+   position: absolute; 
+   top: 115px;
+}
+
+h2 span { 
+   color: white; 
+   font-size: 20px; 
+   background: rgb(74, 170, 165);
+   padding: 10px; 
+   width: 100%;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+label {
+	font-size: 18px; 
+}
+
+input {
+	margin: 10px 0 10px 0;
+	height: 25px;
+	width: 100%;
+}
+
+textarea {
+	height: 150px;
+	width: 100%;
+	margin: 10px 30px 5px 0;
+}
+
+#nametag {
+	float: left;
+	color: white;
+	background: #4aaaa5;
+	height: 65.5px;
+	padding: 12px;
+	margin: 0 0 0 50px;
+	display: flex;
+	align-items: center;
+}
+
+.link-border-right {
+	border-right: 1px solid grey;
+}
+
+.head-link-right, .link-border-right {
+	float: right;
+	padding: 25px;
+	color: grey;
+	background: white;
+	font-size: 18px;
+	height: 39.5px;
+	display: flex;
+	align-items: center;
+}
+
+.main-box {
+	float: left;
+	width: 600px;
+	border: 2px solid #dddddd;
+	color: grey;
+	background: white;
+	padding: 25px;
+	margin: 20px 20px 20px 50px;
+	font-size: 18px;
+}
+
+.title-left {
+	color: #4aaaa5;
+}
+
+.side-box {
+	float: left;
+	width: 230px;
+	border: 2px solid #dddddd;
+	color: grey;
+	background: white;
+	padding: 20px;
+	margin: 20px;
+}
+
+.floating-box {
+	display: flex;
+	justify-content: space-around;
+}
+
 #DCG {
 	float: left;
+	margin: 0 8px 8px 0;
 }
-.mainRoom {
-	background-image: url("assets/images/hip-square.png"); /*why isn't this working?*/
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	display: inline;
-}
-.mainBox {
-	border-style: solid #dddddd;
-	background-color: #ffffff;
-	width: 650px;
-	/*get this to stick to size*/
-}
-.left {
-	float: left;
-}
-.vertRight {
-	border-right: thick #cccccc;
-}
-.sideBox {
-	width: 270px; /*need this to stick to size*/
-	border-style: solid #dddddd;
-}
-.sectionTitle {
-	color: #4aaaa5;
-	padding-left: 20px;
-}
-.floating-img-main {
+
+.port-pic {
+	position: relative;
+	margin: 35px 35px 35px 45px;
+	height: 155px;
+	width: 200px;
 	display: inline-block;
 }
-.floating-img {
-	display: inline;
-	height: 70px;
-	width: 70px;
-	/*get image to fit this width*/
+
+.page-wrap {
+ 	min-height: 100%;
+	margin-bottom: -90px; 
 }
+.page-wrap:after {
+  content: "";
+  display: block;
+  height: 90px; 
+}
+
+.site-footer {
+	height: 46px;
+	padding-top: 40px;
+	text-align: center;
+	color: grey;
+	background: black;
+	border-top: 4px solid #4aaaa5;
+}
+

@@ -1,0 +1,42 @@
+body {
+	background: url(../images/hip-square.png);
+	position: relative;
+	box-sizing: border-box;
+}
+
+h2 { 
+   position: absolute; 
+   top: 115px;
+}
+
+
+
+.main-box {
+	float: left;
+	width: 650px;
+	border-style: thick;
+	border-color: grey;
+	color: grey;
+	background: white;
+	padding: 25px;
+	margin: 20px;
+	background-image: url(../images/DannyCatGodess.jpg);
+}
+
+.title-left {
+	color: #4aaaa5;
+	font-size: 40px;
+}
+
+.port-pic {
+	position: relative;
+	margin: 50px;
+	height: 155px;
+	width: 200px;
+	display: inline-block;
+}
+
+#fashion {
+	background-image: url('../images/fashion.jpg');
+}
+
